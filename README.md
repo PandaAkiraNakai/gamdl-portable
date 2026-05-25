@@ -114,3 +114,7 @@ Puedes cambiar la ruta editando `output_path` en `~/.gamdl/config.ini`.
 - **Uso personal:** descarga solo música a la que tienes acceso con tu propia
   suscripción, para tu uso personal. Respeta los términos de servicio de Apple Music.
 - Proyecto upstream: [glomatico/gamdl](https://github.com/glomatico/gamdl).
+
+<!-- profile-excerpt -->
+Setup portable de **gamdl** para rippear tu música de **Apple Music** en **AAC 256 kbps** sobre cualquier PC Linux Debian/Ubuntu. Un solo `setup.sh` idempotente instala `pipx` + `ffmpeg` + `gamdl`, genera el `config.ini` con tus rutas y descarga en `~/Música/{artista}/{álbum}` con tags y carátula. Las cookies (≈ tu sesión Apple) nunca tocan el repo — las pones a mano en el PC nuevo. `// audio-heist · one-shot · zero-creds-in-repo`
+<!-- /profile-excerpt -->
